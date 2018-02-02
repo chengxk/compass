@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compass</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="about">About</string>
+    <string name="mark">Give a mark</string>
+    <string name="settings">Settings</string>
+    <string name="compass">compass</string>
+    <string name="level">level</string>
+
+    <string name="description">%1$s %2$d°</string>
+
+    <string-array name="direction">
+        <item>North</item>
+        <item>Northeast</item>
+        <item>East</item>
+        <item>Southeast</item>
+        <item>South</item>
+        <item>Southwest</item>
+        <item>West</item>
+        <item>Northwest</item>
+    </string-array>
+</resources>
