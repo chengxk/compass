@@ -124,7 +124,7 @@ public class CompassView extends View {
         canvas.drawLine(cx, cy - radius / 4, cx, cy + radius / 4, paintDivision);
 
         //绘制中心的圆环
-        canvas.drawCircle(cx, cy, radius / 6 + 4, paintDivision);
+        canvas.drawCircle(cx, cy, radius / 6 + 2, paintDivision);
 
         //外圆半径-内圆半径-圆环笔刷宽度/2
         int distance = radius * 5 / 6;
@@ -145,7 +145,7 @@ public class CompassView extends View {
             y = -distance;
         }
         //绘制水平仪
-        if (Math.abs(x) < 2 && Math.abs(y) < 2) {
+        if (Math.abs(x) < 0.5 && Math.abs(y) < 0.5) {
             paintLevel.setColor(Color.GREEN);
         } else {
             paintLevel.setColor(Color.RED);
